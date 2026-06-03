@@ -19,18 +19,18 @@ int main(void)
     Fixture_UP();
     while(Fixture_UP_Sensor()==1)
     {
-        
+        //œyÔ‡GitHub
     }
     Fixture_OUT();
     
-//    while(1)
-//    {
-//        BTN_PRESS();
-//        delay_ms(500);
-//        BTN_RELEASE()
-//        delay_ms(500);
-//    }
-//    
+   while(1)
+   {
+       BTN_PRESS();
+       delay_ms(500);
+       BTN_RELEASE()
+       delay_ms(500);
+   }
+   
     
     Flash_ReadStruct(StartPageAddress, &Cal);
     sprintf(outputBuffer, "LED1:%d\nLED1_cal:%d\nLED2:%d \nLED2_cal:%d\nLED3:%d \nLED3_cal:%d\nLED4:%d \nLED4_cal:%d\n\r\n", 
