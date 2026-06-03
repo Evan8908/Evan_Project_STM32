@@ -15,11 +15,23 @@ Release/
 Objects/
 output/
 
+# Keil 编译中间文件
+*.crf
+*.dep
+*.lnp
+*.iex
+*.build_log.htm
+*.htm
+*.tra
+*.sfd
+
 # Keil 个人设置文件
 *.uvguix.*
 *.uvoptx
 *.scvd
 *.bak
+JLinkSettings.ini
+DebugConfig/
 
 # STM32CubeIDE / Eclipse 配置文件
 *.launch
